@@ -69,9 +69,6 @@ class WeatherActivity : AppCompatActivity() {
             drawerLayout.openDrawer(GravityCompat.START)
         }
 //        分享
-
-
-
         share.setOnClickListener {
 //            Toast.makeText(this,"share",Toast.LENGTH_SHORT).show()
             val textIntent = Intent(Intent.ACTION_SEND)
@@ -137,7 +134,7 @@ class WeatherActivity : AppCompatActivity() {
         ultravioletText.text = lifeIndex.ultraviolet[0].desc
         carWashingText.text = lifeIndex.carWashing[0].desc
         weatherLayout.visibility = View.VISIBLE
-
+        //填充要分享的信息
         message = "城市:"+placeName.text+
                 " 天气:"+currentSky.text+
                 " 温度:"+currentTempText+
