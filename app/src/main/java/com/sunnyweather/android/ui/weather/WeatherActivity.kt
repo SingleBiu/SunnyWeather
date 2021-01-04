@@ -1,6 +1,7 @@
 package com.sunnyweather.android.ui.weather
 
 import android.content.Context
+import android.content.Intent
 import android.graphics.Color
 import android.os.Build
 import android.os.Bundle
@@ -20,12 +21,15 @@ import com.sunnyweather.android.logic.model.Weather
 import com.sunnyweather.android.logic.model.getSky
 import kotlinx.android.synthetic.main.activity_weather.*
 import kotlinx.android.synthetic.main.forecast.*
+import kotlinx.android.synthetic.main.forecast_item.*
 import kotlinx.android.synthetic.main.life_index.*
 import kotlinx.android.synthetic.main.now.*
 import java.text.SimpleDateFormat
 import java.util.*
 
 class WeatherActivity : AppCompatActivity() {
+//    待分享的信息
+    var message = ""
 
     val viewModel by lazy { ViewModelProviders.of(this).get(WeatherViewModel::class.java) }
 
@@ -65,8 +69,15 @@ class WeatherActivity : AppCompatActivity() {
             drawerLayout.openDrawer(GravityCompat.START)
         }
 //        分享
+
+
+
         share.setOnClickListener {
-            Toast.makeText(this,"share",Toast.LENGTH_SHORT).show()
+//            Toast.makeText(this,"share",Toast.LENGTH_SHORT).show()
+            val textIntent = Intent(Intent.ACTION_SEND)
+            textIntent.type = "text/plain"
+            textIntent.putExtra(Intent.EXTRA_TEXT, message)
+            startActivity(Intent.createChooser(textIntent, "分享"))
         }
 //
         drawerLayout.addDrawerListener(object : DrawerLayout.DrawerListener {
@@ -126,6 +137,11 @@ class WeatherActivity : AppCompatActivity() {
         ultravioletText.text = lifeIndex.ultraviolet[0].desc
         carWashingText.text = lifeIndex.carWashing[0].desc
         weatherLayout.visibility = View.VISIBLE
+
+        message = "城市:"+placeName.text+
+                " 天气:"+currentSky.text+
+                " 温度:"+currentTempText+
+                " "+currentAQI.text
     }
 
 }
