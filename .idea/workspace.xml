@@ -5,12 +5,29 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="share" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="53c44895-169f-40fc-abe7-e4032f2cef44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sunnyweather/android/SunnyWeatherApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sunnyweather/android/SunnyWeatherApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sunnyweather/android/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sunnyweather/android/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sunnyweather/android/ui/weather/WeatherActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sunnyweather/android/ui/weather/WeatherActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/now.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/now.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,11 +47,20 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1mH3Bt9fLrsPnXxFHsWABzEYFP2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -46,13 +72,16 @@
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/A/Cordova_QQ-master" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.do.not.copy.http.proxy.settings.to.gradle" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.-231657767">
       <recent name="com.sunnyweather.android" />
+    </key>
+    <key name="android.template.760625288">
+      <recent name="com.sunnyweather.android.ui.weather" />
     </key>
   </component>
   <component name="RunManager">
@@ -133,14 +162,34 @@
       <screen x="0" y="0" width="1368" height="882" />
     </state>
     <state x="140" y="97" width="1089" height="695" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1368.882@0.0.1368.882" timestamp="1609144621821" />
-    <state x="415" y="188" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609569806672">
+    <state x="470" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1609745091091">
       <screen x="0" y="0" width="1368" height="882" />
     </state>
-    <state x="415" y="188" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1368.882@0.0.1368.882" timestamp="1609569806672" />
-    <state x="465" y="197" key="FileChooserDialogImpl" timestamp="1609136755395">
+    <state x="470" y="158" key="#com.intellij.ide.util.MemberChooser/0.0.1368.882@0.0.1368.882" timestamp="1609745091091" />
+    <state x="415" y="188" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609745691497">
       <screen x="0" y="0" width="1368" height="882" />
     </state>
-    <state x="465" y="197" key="FileChooserDialogImpl/0.0.1368.882@0.0.1368.882" timestamp="1609136755395" />
+    <state x="415" y="188" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1368.882@0.0.1368.882" timestamp="1609745691497" />
+    <state x="465" y="197" key="FileChooserDialogImpl" timestamp="1609743002367">
+      <screen x="0" y="0" width="1368" height="882" />
+    </state>
+    <state x="465" y="197" key="FileChooserDialogImpl/0.0.1368.882@0.0.1368.882" timestamp="1609743002367" />
+    <state width="1324" height="186" key="GridCell.Tab.0.bottom" timestamp="1609745523191">
+      <screen x="0" y="0" width="1368" height="882" />
+    </state>
+    <state width="1324" height="186" key="GridCell.Tab.0.bottom/0.0.1368.882@0.0.1368.882" timestamp="1609745523191" />
+    <state width="1324" height="186" key="GridCell.Tab.0.center" timestamp="1609745523191">
+      <screen x="0" y="0" width="1368" height="882" />
+    </state>
+    <state width="1324" height="186" key="GridCell.Tab.0.center/0.0.1368.882@0.0.1368.882" timestamp="1609745523191" />
+    <state width="1324" height="186" key="GridCell.Tab.0.left" timestamp="1609745523190">
+      <screen x="0" y="0" width="1368" height="882" />
+    </state>
+    <state width="1324" height="186" key="GridCell.Tab.0.left/0.0.1368.882@0.0.1368.882" timestamp="1609745523190" />
+    <state width="1324" height="186" key="GridCell.Tab.0.right" timestamp="1609745523191">
+      <screen x="0" y="0" width="1368" height="882" />
+    </state>
+    <state width="1324" height="186" key="GridCell.Tab.0.right/0.0.1368.882@0.0.1368.882" timestamp="1609745523191" />
     <state x="186" y="84" key="SettingsEditor" timestamp="1609144640675">
       <screen x="0" y="0" width="1368" height="882" />
     </state>

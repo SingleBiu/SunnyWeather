@@ -64,6 +64,11 @@ class WeatherActivity : AppCompatActivity() {
         navBtn.setOnClickListener {
             drawerLayout.openDrawer(GravityCompat.START)
         }
+//        分享
+        share.setOnClickListener {
+            Toast.makeText(this,"share",Toast.LENGTH_SHORT).show()
+        }
+//
         drawerLayout.addDrawerListener(object : DrawerLayout.DrawerListener {
             override fun onDrawerStateChanged(newState: Int) {}
 
