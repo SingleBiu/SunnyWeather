@@ -8,8 +8,7 @@ class SunnyWeatherApplication : Application() {
 
     companion object {
 
-        const val TOKEN = "F6FpeVaXQXs9T3A9" // 填入你申请到的令牌值
-        
+        const val TOKEN = "qrHM6SKczuSQ2t8t" // 填入你申请到的令牌值
 
         @SuppressLint("StaticFieldLeak")
         lateinit var context: Context

@@ -6,7 +6,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="share" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="aaaa" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
@@ -15,10 +15,19 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sunnyweather/android/SunnyWeatherApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sunnyweather/android/SunnyWeatherApplication.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sunnyweather/android/ui/weather/WeatherActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sunnyweather/android/ui/weather/WeatherActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/now.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/now.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,25 +67,29 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="last_opened_file_path" value="D:/A/SunnyWeather-master" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
     <property name="show.do.not.copy.http.proxy.settings.to.gradle" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\zd854\Desktop\SunnyWeather\app\src\main\res\drawable-v24" />
+    <key name="android.template.-2353490">
+      <recent name="com.sunnyweather.android.ui.place" />
+    </key>
+    <key name="android.template.760625288">
+      <recent name="com.sunnyweather.android.ui.weather" />
     </key>
     <key name="android.template.-231657767">
       <recent name="com.sunnyweather.android" />
     </key>
-    <key name="android.template.760625288">
-      <recent name="com.sunnyweather.android.ui.weather" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zd854\Desktop\SunnyWeather\app\src\main\res\drawable-v24" />
     </key>
   </component>
   <component name="RunManager">
@@ -153,6 +166,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="277" y="100" key="#Notifications" timestamp="1609920809166">
+      <screen x="0" y="0" width="1368" height="882" />
+    </state>
+    <state x="277" y="100" key="#Notifications/0.0.1368.882@0.0.1368.882" timestamp="1609920809166" />
     <state x="140" y="97" width="1089" height="695" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609144621821">
       <screen x="0" y="0" width="1368" height="882" />
     </state>
@@ -161,37 +178,41 @@
       <screen x="0" y="0" width="1368" height="882" />
     </state>
     <state x="470" y="158" key="#com.intellij.ide.util.MemberChooser/0.0.1368.882@0.0.1368.882" timestamp="1609745091091" />
-    <state x="415" y="188" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609745691497">
+    <state x="415" y="188" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609913439487">
       <screen x="0" y="0" width="1368" height="882" />
     </state>
-    <state x="415" y="188" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1368.882@0.0.1368.882" timestamp="1609745691497" />
-    <state x="465" y="197" key="FileChooserDialogImpl" timestamp="1609743002367">
+    <state x="415" y="188" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1368.882@0.0.1368.882" timestamp="1609913439487" />
+    <state x="465" y="197" key="FileChooserDialogImpl" timestamp="1609917647187">
       <screen x="0" y="0" width="1368" height="882" />
     </state>
-    <state x="465" y="197" key="FileChooserDialogImpl/0.0.1368.882@0.0.1368.882" timestamp="1609743002367" />
-    <state width="1324" height="186" key="GridCell.Tab.0.bottom" timestamp="1609746704519">
+    <state x="465" y="197" key="FileChooserDialogImpl/0.0.1368.882@0.0.1368.882" timestamp="1609917647187" />
+    <state width="1324" height="229" key="GridCell.Tab.0.bottom" timestamp="1609917528405">
       <screen x="0" y="0" width="1368" height="882" />
     </state>
-    <state width="1324" height="186" key="GridCell.Tab.0.bottom/0.0.1368.882@0.0.1368.882" timestamp="1609746704519" />
-    <state width="1324" height="186" key="GridCell.Tab.0.center" timestamp="1609746704519">
+    <state width="1324" height="229" key="GridCell.Tab.0.bottom/0.0.1368.882@0.0.1368.882" timestamp="1609917528405" />
+    <state width="1324" height="229" key="GridCell.Tab.0.center" timestamp="1609917528405">
       <screen x="0" y="0" width="1368" height="882" />
     </state>
-    <state width="1324" height="186" key="GridCell.Tab.0.center/0.0.1368.882@0.0.1368.882" timestamp="1609746704519" />
-    <state width="1324" height="186" key="GridCell.Tab.0.left" timestamp="1609746704519">
+    <state width="1324" height="229" key="GridCell.Tab.0.center/0.0.1368.882@0.0.1368.882" timestamp="1609917528405" />
+    <state width="1324" height="229" key="GridCell.Tab.0.left" timestamp="1609917528405">
       <screen x="0" y="0" width="1368" height="882" />
     </state>
-    <state width="1324" height="186" key="GridCell.Tab.0.left/0.0.1368.882@0.0.1368.882" timestamp="1609746704519" />
-    <state width="1324" height="186" key="GridCell.Tab.0.right" timestamp="1609746704519">
+    <state width="1324" height="229" key="GridCell.Tab.0.left/0.0.1368.882@0.0.1368.882" timestamp="1609917528405" />
+    <state width="1324" height="229" key="GridCell.Tab.0.right" timestamp="1609917528405">
       <screen x="0" y="0" width="1368" height="882" />
     </state>
-    <state width="1324" height="186" key="GridCell.Tab.0.right/0.0.1368.882@0.0.1368.882" timestamp="1609746704519" />
-    <state x="186" y="84" key="SettingsEditor" timestamp="1609144640675">
+    <state width="1324" height="229" key="GridCell.Tab.0.right/0.0.1368.882@0.0.1368.882" timestamp="1609917528405" />
+    <state x="186" y="84" key="SettingsEditor" timestamp="1609920852155">
       <screen x="0" y="0" width="1368" height="882" />
     </state>
-    <state x="186" y="84" key="SettingsEditor/0.0.1368.882@0.0.1368.882" timestamp="1609144640675" />
+    <state x="186" y="84" key="SettingsEditor/0.0.1368.882@0.0.1368.882" timestamp="1609920852155" />
     <state x="486" y="219" key="chooseDestDirectoryDialog" timestamp="1609750069105">
       <screen x="0" y="0" width="1368" height="882" />
     </state>
     <state x="486" y="219" key="chooseDestDirectoryDialog/0.0.1368.882@0.0.1368.882" timestamp="1609750069105" />
+    <state x="94" y="94" width="1181" height="695" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1609924564589">
+      <screen x="0" y="0" width="1368" height="882" />
+    </state>
+    <state x="94" y="94" width="1181" height="695" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1368.882@0.0.1368.882" timestamp="1609924564589" />
   </component>
 </project>

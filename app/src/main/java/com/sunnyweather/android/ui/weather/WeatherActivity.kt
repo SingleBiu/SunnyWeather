@@ -3,6 +3,7 @@ package com.sunnyweather.android.ui.weather
 import android.content.Context
 import android.content.Intent
 import android.graphics.Color
+import android.location.LocationManager
 import android.os.Build
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -21,7 +22,6 @@ import com.sunnyweather.android.logic.model.Weather
 import com.sunnyweather.android.logic.model.getSky
 import kotlinx.android.synthetic.main.activity_weather.*
 import kotlinx.android.synthetic.main.forecast.*
-import kotlinx.android.synthetic.main.forecast_item.*
 import kotlinx.android.synthetic.main.life_index.*
 import kotlinx.android.synthetic.main.now.*
 import java.text.SimpleDateFormat
@@ -35,6 +35,7 @@ class WeatherActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         if (Build.VERSION.SDK_INT >= 21) {
             val decorView = window.decorView
             decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_LAYOUT_STABLE or View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
@@ -68,6 +69,7 @@ class WeatherActivity : AppCompatActivity() {
         navBtn.setOnClickListener {
             drawerLayout.openDrawer(GravityCompat.START)
         }
+
 //        分享
         share.setOnClickListener {
 //            Toast.makeText(this,"share",Toast.LENGTH_SHORT).show()
@@ -136,9 +138,9 @@ class WeatherActivity : AppCompatActivity() {
         weatherLayout.visibility = View.VISIBLE
         //填充要分享的信息
         message = "城市:"+placeName.text+
-                " 天气:"+currentSky.text+
-                " 温度:"+currentTempText+
-                " "+currentAQI.text
+                "\n天气:"+currentSky.text+
+                "\n温度:"+currentTempText+
+                "\n"+currentAQI.text
     }
 
 }
